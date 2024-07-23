@@ -170,3 +170,44 @@ body {
   padding: 30px 60px;
   background: linear-gradient(182deg, #FF5017 2.24%, #FF6837 99.25%);
 }
+
+.color {
+  background-color: #f8f8f8;
+  ;
+}
+
+.color__text {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 160px;
+  margin-bottom: 70px;
+}
+
+.color__gallery {
+  background-color: #13171C;
+}
+
+.color__gallery-start,
+.color__gallery-end {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery-box {
+  padding: 170px 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+}
+
+.gallery-box img {
+  max-width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.gallery-box__text{
+  font-size: 36px;
+  color: #fff;
+}
